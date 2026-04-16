@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Start Invest UA</title>
+  <meta
+    name="description"
+    content="Bilingual website for beginner investors in Ukraine with practical lessons, tools, and stock research basics."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Unbounded:wght@500;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <nav class="topbar">
+        <a class="brand" href="#top">Start Invest UA</a>
+        <div class="topbar-actions">
+          <a class="nav-link" href="#path" data-i18n="navPath">Path</a>
+          <a class="nav-link" href="#tools" data-i18n="navTools">Tools</a>
+          <a class="nav-link" href="#stocks" data-i18n="navStocks">Stocks</a>
+          <button class="language-toggle" type="button" aria-label="Switch language">
+            <span class="language-pill is-active" data-lang-option="uk">UA</span>
+            <span class="language-pill" data-lang-option="en">EN</span>
+          </button>
+        </div>
+      </nav>
+
+      <section class="hero-grid" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="eyebrow">Освіта для українських інвесторів-початківців</p>
+          <h1 data-i18n="heroTitle">Інвестування без паніки, складних слів і хаосу</h1>
+          <p class="hero-text" data-i18n="heroText">
+            Допомагаємо людям в Україні зрозуміти, як почати інвестувати, якими інструментами користуватися,
+            як обирати акції та як будувати довгу стратегію крок за кроком.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#path" data-i18n="heroPrimary">Почати навчання</a>
+            <a class="button button-secondary" href="#about" data-i18n="heroSecondary">Що є на сайті</a>
+          </div>
+          <p class="disclaimer" data-i18n="disclaimer">
+            Матеріали мають освітній характер і не є персональною інвестиційною порадою.
+          </p>
+        </div>
+
+        <aside class="hero-card">
+          <p class="card-label" data-i18n="cardLabel">Що отримає новачок</p>
+          <ul class="feature-list">
+            <li data-i18n="cardItem1">Покроковий план від першого брокерського рахунку до першого портфеля</li>
+            <li data-i18n="cardItem2">Пояснення ETF, дивідендів, ризику, диверсифікації та довгого горизонту</li>
+            <li data-i18n="cardItem3">Список сервісів для аналізу акцій і відстеження портфеля</li>
+          </ul>
+          <div class="stat-grid">
+            <article class="stat">
+              <strong>2</strong>
+              <span data-i18n="stat1">мови</span>
+            </article>
+            <article class="stat">
+              <strong>4</strong>
+              <span data-i18n="stat2">напрями навчання</span>
+            </article>
+            <article class="stat">
+              <strong>100%</strong>
+              <span data-i18n="stat3">фокус на початківців</span>
+            </article>
+          </div>
+        </aside>
+      </section>
+    </header>
+
+    <main>
+      <section class="section" id="about">
+        <div class="section-heading">
+          <p class="section-tag" data-i18n="aboutTag">Основа сайту</p>
+          <h2 data-i18n="aboutTitle">Що ми будемо пояснювати людям</h2>
+        </div>
+        <div class="card-grid three-up">
+          <article class="info-card">
+            <h3 data-i18n="aboutCard1Title">Як почати</h3>
+            <p data-i18n="aboutCard1Text">
+              Що потрібно зробити перед першою інвестицією: фінансова подушка, мета, горизонт і комфортний рівень ризику.
+            </p>
+          </article>
+          <article class="info-card">
+            <h3 data-i18n="aboutCard2Title">Які інструменти існують</h3>
+            <p data-i18n="aboutCard2Text">
+              Акції, ETF, облігації, грошові фонди та просте пояснення, для чого кожен інструмент потрібен новачку.
+            </p>
+          </article>
+          <article class="info-card">
+            <h3 data-i18n="aboutCard3Title">Як відбирати ідеї</h3>
+            <p data-i18n="aboutCard3Text">
+              Простий підхід до відбору компаній: бізнес-модель, прибуток, борг, оцінка й причина, чому ви взагалі купуєте.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section accent-section" id="path">
+        <div class="section-heading">
+          <p class="section-tag" data-i18n="pathTag">Дорожня карта</p>
+          <h2 data-i18n="pathTitle">Навчальний шлях для людини, яка починає з нуля</h2>
+        </div>
+        <div class="path-grid">
+          <article class="path-step">
+            <span class="step-number">01</span>
+            <h3 data-i18n="pathStep1Title">Зрозуміти свою ціль</h3>
+            <p data-i18n="pathStep1Text">
+              Інвестування для пенсії, майбутньої квартири, навчання дітей або довгої фінансової свободи має різні горизонти.
+            </p>
+          </article>
+          <article class="path-step">
+            <span class="step-number">02</span>
+            <h3 data-i18n="pathStep2Title">Обрати інструменти</h3>
+            <p data-i18n="pathStep2Text">
+              Для старту часто достатньо зрозуміти різницю між окремими акціями та ETF, а не намагатися охопити все одразу.
+            </p>
+          </article>
+          <article class="path-step">
+            <span class="step-number">03</span>
+            <h3 data-i18n="pathStep3Title">Вивчити брокера і комісії</h3>
+            <p data-i18n="pathStep3Text">
+              Людина має розуміти, де купується актив, як працюють комісії, податки й конвертація валюти.
+            </p>
+          </article>
+          <article class="path-step">
+            <span class="step-number">04</span>
+            <h3 data-i18n="pathStep4Title">Зібрати простий портфель</h3>
+            <p data-i18n="pathStep4Text">
+              Почати можна з невеликої, зрозумілої структури, яку легко пояснити самому собі без зайвої складності.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="tools">
+        <div class="section-heading">
+          <p class="section-tag" data-i18n="toolsTag">Інструменти</p>
+          <h2 data-i18n="toolsTitle">Сервіси, які допомагають інвестору-початківцю</h2>
+        </div>
+        <div class="card-grid two-up">
+          <article class="tool-card">
+            <h3 data-i18n="toolCard1Title">Скринери акцій</h3>
+            <p data-i18n="toolCard1Text">
+              Сайти для пошуку компаній за капіталізацією, сектором, прибутковістю, боргом і мультиплікаторами.
+            </p>
+          </article>
+          <article class="tool-card">
+            <h3 data-i18n="toolCard2Title">Платформи з графіками</h3>
+            <p data-i18n="toolCard2Text">
+              Інструменти для візуального аналізу цін, але без перетворення інвестування на хаотичний трейдинг.
+            </p>
+          </article>
+          <article class="tool-card">
+            <h3 data-i18n="toolCard3Title">Портфельні трекери</h3>
+            <p data-i18n="toolCard3Text">
+              Сервіси, де зручно фіксувати свої позиції, середню ціну входу, дивіденди та структуру портфеля.
+            </p>
+          </article>
+          <article class="tool-card">
+            <h3 data-i18n="toolCard4Title">Освітні джерела</h3>
+            <p data-i18n="toolCard4Text">
+              База статей, глосарій термінів та прості пояснення для людей, які не мають фінансового бекграунду.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="stocks">
+        <div class="section-heading">
+          <p class="section-tag" data-i18n="stocksTag">Відбір акцій</p>
+          <h2 data-i18n="stocksTitle">Що означає “які акції обирати” для початківця</h2>
+        </div>
+        <div class="split-layout">
+          <article class="focus-panel">
+            <h3 data-i18n="stocksPanelTitle">Навчати не “гарячим ідеям”, а логіці вибору</h3>
+            <p data-i18n="stocksPanelText">
+              На сайті краще показувати підхід: купувати те, що людина розуміє, звертати увагу на стабільний бізнес, сильний баланс,
+              прибутковість і диверсифікацію, а не обіцяти швидкі гроші.
+            </p>
+          </article>
+          <div class="checklist-card">
+            <h3 data-i18n="checklistTitle">Чеклист для аналізу</h3>
+            <ul class="feature-list compact">
+              <li data-i18n="check1">Чим заробляє компанія?</li>
+              <li data-i18n="check2">Чи зростають виручка і прибуток?</li>
+              <li data-i18n="check3">Наскільки великий борг?</li>
+              <li data-i18n="check4">Чи не переплачена акція?</li>
+              <li data-i18n="check5">Чому ця позиція взагалі в портфелі?</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta-section">
+        <div class="cta-card">
+          <p class="section-tag" data-i18n="ctaTag">Наступний крок</p>
+          <h2 data-i18n="ctaTitle">Це вже хороший старт для першої версії сайту</h2>
+          <p data-i18n="ctaText">
+            Далі ми можемо додати повноцінні сторінки уроків, каталог інструментів, блог, FAQ і окремі матеріали українською та англійською.
+          </p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
